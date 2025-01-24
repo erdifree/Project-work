@@ -1,0 +1,48 @@
+/* .desc {
+  overflow: auto;
+  color: rgb(122, 88, 37);
+} */
+
+.btn {
+  background: linear-gradient(
+    180deg,
+    hsl(193, 78%, 29%) 20%,
+    hwb(183 60% 7%) 100%
+  );
+  color: white;
+}
+
+.btnCart {
+  background: linear-gradient(
+    180deg,
+    hsl(0, 0%, 100%) 20%,
+    hwb(183 60% 7%) 100%
+  );
+  font-size: xx-small;
+  opacity: 0.5;
+  border-radius: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+}
+
+.alert {
+  background: linear-gradient(
+    180deg,
+    hsl(79, 61%, 70%) 20%,
+    hwb(0 100% 0%) 100%
+  );
+  color: black;
+}
+
+.body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/545d288be4b03a44d11317f8/1563372046468-3I7VPUJDIGXENMDVMLJ8/Sfondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: ;
+}
+
+h1 {
+  color: rgb(2, 103, 128);
+}
