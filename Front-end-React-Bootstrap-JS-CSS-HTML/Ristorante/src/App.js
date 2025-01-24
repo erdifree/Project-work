@@ -7,7 +7,7 @@ import { Menu } from "./components/category/Menu";
 import GetFoodByCategory from "./pages/GetFoodByCategory.js"
 import { GetDrinksByCategory } from "./pages/GetDrinksByCategory";
 import { useState } from "react";
-import { Login } from "./pages/LoginPage";
+import Login from './pages/LoginPage';
 import { OrderPage } from "./pages/OrderPage";
 import { OrderCategory } from "./components/category/OrderCategory";
 import { ManagmentPaymentPage } from "./pages/ManagmentPaymentPage";
