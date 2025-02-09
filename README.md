@@ -6,11 +6,11 @@ Prima di avviare il microservizio, assicurati di avere installati:
 - **MySQL Server**
 - **Maven**
 
-## ⚙ Configurazione del Database
+## Configurazione del Database
 Prima di avviare il microservizio, configura il database MySQL:
 
 
-Poi, assicurati che le credenziali di accesso al database siano corrette nel file `application.properties`:
+## Poi, assicurati che le credenziali di accesso al database siano corrette nel file `application.properties`:
 server.port=8080
 spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/projectwork
 spring.datasource.username=root
@@ -19,7 +19,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.defer-datasource-initialization=true
 logging.level.root=INFO
-```
+
 
 ## Avvio del Microservizio
 Per avviare il microservizio, eseguire i seguenti comandi:
